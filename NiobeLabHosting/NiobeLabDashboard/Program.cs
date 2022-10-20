@@ -8,6 +8,7 @@ namespace NiobeLabDashboard
         {
             using var host = CreateHostBuilder().Build();
             host.Run();
+
         }
 
         private static IHostBuilder CreateHostBuilder()
@@ -17,18 +18,18 @@ namespace NiobeLabDashboard
                 {
                     webBuilder.UseStartup<Startup>();
                 })
-                .ConfigureServices((hostContext, services) =>
-                {
-                    services.AddHostedMyService();
-                })
-                .ConfigureLogging((context, builder) =>
-                {
-                    builder
-                        .AddConfiguration(context.Configuration.GetSection("Logging"))
-                        .AddConsole();
-                    if (context.HostingEnvironment.IsDevelopment())
-                        builder.AddConsole();
-                })
+                //.ConfigureServices((hostContext, services) =>
+                //{
+                //    services.AddHostedMyService();
+                //})
+                //.ConfigureLogging((context, builder) =>
+                //{
+                //    builder
+                //        .AddConfiguration(context.Configuration.GetSection("Logging"))
+                //        .AddConsole();
+                //    if (context.HostingEnvironment.IsDevelopment())
+                //        builder.AddConsole();
+                //})
                 .UseContentRoot(Directory.GetCurrentDirectory());
         }
     }

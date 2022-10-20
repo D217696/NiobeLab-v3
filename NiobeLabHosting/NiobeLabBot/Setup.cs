@@ -23,16 +23,16 @@ namespace NiobeLabBot
                 GatewayIntents = GatewayIntents.AllUnprivileged
             });
             return services
-                .AddHostedService<Startup>()
+                .AddHostedService<NiobeLabBot.Startup>()
                 .AddSingleton<DiscordSocketClient>(client)
                 .AddSingleton<InteractionService>(serviceProvider =>
                 {
                     var interactionService = new InteractionService(client.Rest, new InteractionServiceConfig()
-                        {
-                            LogLevel = LogSeverity.Error
+                    {
+                        LogLevel = LogSeverity.Error
                     });
 
-                    interactionService.AddModuleAsync(typeof(Slashcommands), serviceProvider);
+                    interactionService.AddModuleAsync(typeof(NiobeLabBot.Commands.Slashcommands), serviceProvider);
 
                     return interactionService;
                 });

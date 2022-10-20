@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NiobeLabDashboard", "NiobeLabDashboard\NiobeLabDashboard.csproj", "{162AFCC1-D644-4F21-9B85-D09B9E876B56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NiobeLabDashboard", "NiobeLabDashboard\NiobeLabDashboard.csproj", "{162AFCC1-D644-4F21-9B85-D09B9E876B56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NiobeLabBot", "NiobeLabBot\NiobeLabBot.csproj", "{752990C3-1EAF-43FF-8F29-AE367FE44E84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NiobeLabBot", "NiobeLabBot\NiobeLabBot.csproj", "{752990C3-1EAF-43FF-8F29-AE367FE44E84}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

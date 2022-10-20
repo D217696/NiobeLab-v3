@@ -1,4 +1,5 @@
-﻿namespace NiobeLabDashboard
+﻿using NiobeLabBot;
+namespace NiobeLabDashboard
 {
     public class Startup
     {
@@ -8,6 +9,8 @@
 
             // Add services to the container.
             builder.Services.AddRazorPages();
+
+            builder.Services.AddHostedService<NiobeLabBot.Startup>();
 
             var app = builder.Build();
 
@@ -27,6 +30,8 @@
             app.UseAuthorization();
 
             app.MapRazorPages();
+
+            app.Run();
         }
     }
 }

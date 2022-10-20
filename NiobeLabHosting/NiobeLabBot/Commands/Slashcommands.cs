@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace NiobeLabBot.Commands
 {
-    internal class Slashcommands : InteractionModuleBase<SocketInteractionContext<SocketSlashCommand>>
+    public class Slashcommands : InteractionModuleBase<SocketInteractionContext<SocketSlashCommand>>
     {
     }
 }

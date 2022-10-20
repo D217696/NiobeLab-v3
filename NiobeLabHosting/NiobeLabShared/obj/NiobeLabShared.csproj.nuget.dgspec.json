@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Labra\\OneDrive\\Documenten\\GitHub\\NiobeLab-v3\\NiobeLabHosting\\NiobeLabShared\\NiobeLabShared.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Labra\\OneDrive\\Documenten\\GitHub\\NiobeLab-v3\\NiobeLabHosting\\NiobeLabBot\\NiobeLabBot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Labra\\OneDrive\\Documenten\\GitHub\\NiobeLab-v3\\NiobeLabHosting\\NiobeLabBot\\NiobeLabBot.csproj",
+        "projectName": "NiobeLabBot",
+        "projectPath": "C:\\Users\\Labra\\OneDrive\\Documenten\\GitHub\\NiobeLab-v3\\NiobeLabHosting\\NiobeLabBot\\NiobeLabBot.csproj",
+        "packagesPath": "C:\\Users\\Labra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Labra\\OneDrive\\Documenten\\GitHub\\NiobeLab-v3\\NiobeLabHosting\\NiobeLabBot\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Labra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Discord.Net": {
+              "target": "Package",
+              "version": "[3.8.1, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Labra\\OneDrive\\Documenten\\GitHub\\NiobeLab-v3\\NiobeLabHosting\\NiobeLabShared\\NiobeLabShared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Labra\\OneDrive\\Documenten\\GitHub\\NiobeLab-v3\\NiobeLabHosting\\NiobeLabShared\\NiobeLabShared.csproj",
+        "projectName": "NiobeLabShared",
+        "projectPath": "C:\\Users\\Labra\\OneDrive\\Documenten\\GitHub\\NiobeLab-v3\\NiobeLabHosting\\NiobeLabShared\\NiobeLabShared.csproj",
+        "packagesPath": "C:\\Users\\Labra\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Labra\\OneDrive\\Documenten\\GitHub\\NiobeLab-v3\\NiobeLabHosting\\NiobeLabShared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Labra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Labra\\OneDrive\\Documenten\\GitHub\\NiobeLab-v3\\NiobeLabHosting\\NiobeLabBot\\NiobeLabBot.csproj": {
+                "projectPath": "C:\\Users\\Labra\\OneDrive\\Documenten\\GitHub\\NiobeLab-v3\\NiobeLabHosting\\NiobeLabBot\\NiobeLabBot.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Discord.Net": {
+              "target": "Package",
+              "version": "[3.8.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
